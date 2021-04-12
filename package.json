@@ -17,7 +17,6 @@
 	},
 	"scripts": {
 		"build": "node cli",
-		"prepare": "npm run build",
 		"test": "xo && tsd && ava"
 	},
 	"files": [
@@ -33,17 +32,18 @@
 		"react-native"
 	],
 	"dependencies": {
+		"autoprefixer": "^10.2.5",
 		"css": "^2.2.4",
 		"css-to-react-native": "^3.0.0",
 		"match-all": "^1.2.6",
-		"meow": "^7.0.1",
-		"postcss": "^8.1.14"
+		"meow": "^7.1.1",
+		"postcss": "^8.2.10"
 	},
 	"devDependencies": {
 		"@ava/babel": "^1.0.1",
 		"ava": "^3.5.0",
 		"prettier": "^1.19.1",
-		"tailwindcss": "^2.0.2",
+		"tailwindcss": "^2.1.1",
 		"tsd": "^0.11.0",
 		"xo": "^0.30.0"
 	},
